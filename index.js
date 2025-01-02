@@ -280,7 +280,7 @@ const swap = (bar1, bar2) => {
         bar1.textContent = bar2.textContent;
         bar2.textContent = tempText;
 
-        setTimeout(() => resolve(), 300); // Delay for swap animation
+        setTimeout(() => resolve(), 800); // Delay for swap animation
     });
 };
 
